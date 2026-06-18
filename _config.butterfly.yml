@@ -425,9 +425,9 @@ wordcount:
 
 # Busuanzi count for PV / UV in site
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # --------------------------------------
 # Math
@@ -779,7 +779,7 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: true
+  enable: false
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -854,7 +854,7 @@ canvas_fluttering_ribbon:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   # Color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   color: '0,0,255'
   # The opacity of line (0~1)
@@ -867,7 +867,7 @@ canvas_nest:
 
 # Mouse click effects: fireworks
 fireworks:
-  enable: true
+  enable: false
   zIndex: 9999
   mobile: false
 
